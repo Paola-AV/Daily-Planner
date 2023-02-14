@@ -1,0 +1,133 @@
+body{
+    background-color: #faf4cf;
+    font-size: 16px;
+    font-family:  'Poppins', sans-serif;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1014%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(233%2c 106%2c 188%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c435.429C84.518%2c441.994%2c171.629%2c423.84%2c242.184%2c376.845C312.178%2c330.223%2c363.336%2c257.568%2c387.82%2c177.111C410.723%2c101.849%2c384.684%2c24.169%2c373.189%2c-53.657C361.743%2c-131.152%2c361.325%2c-210.89%2c320.625%2c-277.823C275.493%2c-352.044%2c217.429%2c-433.537%2c132.149%2c-450.059C47.209%2c-466.515%2c-24.337%2c-389.487%2c-105.837%2c-360.447C-181.443%2c-333.507%2c-279.375%2c-348.202%2c-329.542%2c-285.55C-379.714%2c-222.892%2c-343.2%2c-130.435%2c-353.733%2c-50.859C-364.109%2c27.529%2c-416.654%2c103.765%2c-390.971%2c178.55C-364.84%2c254.638%2c-286.391%2c296.835%2c-219.155%2c341.011C-151.303%2c385.592%2c-80.943%2c429.142%2c0%2c435.429' fill='%23e655b3'%3e%3c/path%3e%3cpath d='M1440 1202.815C1564.049 1207.85 1682.63 1166.307 1792.516 1108.5259999999998 1910.464 1046.5059999999999 2036.414 978.841 2094.255 858.788 2152.462 737.976 2147.58 591.088 2102.699 464.718 2061.4719999999998 348.637 1954.521 274.771 1859.147 196.80700000000002 1778.1100000000001 130.563 1685.821 90.26499999999999 1590.837 46.297000000000025 1478.268-5.812000000000012 1368.438-123.76499999999999 1250.649-84.86900000000003 1132.041-45.702999999999975 1137.768 132.964 1052.362 224.11 961.498 321.082 785.198 334.254 740.62 459.444 696.265 584.007 767.294 722.6179999999999 834.25 836.637 897.095 943.655 999.2 1016.432 1105.408 1080.635 1209.119 1143.329 1318.912 1197.9 1440 1202.815' fill='%23ec7fc5'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1014'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline solid  #b689b0;
+}
+
+
+.container{
+    
+    color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+
+.li-container{
+    
+    display: flex;
+    flex-direction: row;
+}
+li{
+  list-style: none;
+  background-color: #fadaeb;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #fadaeb;
+    border-radius: 20px;
+  }
+
+input{
+    background-color: rgb(250, 250, 245);
+    border-radius: 3px;
+    border-width: 0.1rem;
+    padding: 0.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input{
+    background-color: #f7dfeb;
+}
+
+.btn-add{
+    background-color: #f791c7;
+    border-radius: 3px;
+    border-width: 0.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #f791c7;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    padding-right: 1.5rem;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color:  #c4739e;
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+  }
+  .toDo{
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #f9bcdd;
+    width: 50%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+  }
+  .important{
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #f9bcdd;
+    width: 50%;
+    border-radius: 20px;
+  }
+  .schedule{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  table{
+    background-color:  #d5a4cf;
+    padding: 2rem;
+    border-radius: 20px;
+  }
+  tr{
+    border-bottom: 1px solid #be2a2a;
+
+  }
+  .sch{
+    border: none;
+    background-color: #e4c9e1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2 rem;
+  }
